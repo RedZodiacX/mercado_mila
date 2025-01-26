@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+src/
+├── components/
+│   ├── AddItemForm.jsx       // Formulario para agregar items
+│   ├── ItemList.jsx          // Listado de items con selección por check
+│   ├── SelectedItemsTable.jsx // Tabla para mostrar los seleccionados
+│   └── Navbar.jsx            // Navegación entre páginas
+├── pages/
+│   ├── AddItemsPage.jsx      // Página para agregar y borrar items
+│   └── SelectItemsPage.jsx   // Página para seleccionar y enviar items
+├── services/
+│   ├── api.js                // Funciones para comunicación con el backend
+├── App.js                    // Configuración de rutas
+└── index.js                  // Punto de entrada
